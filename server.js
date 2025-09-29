@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     origin: [
-        'https://sande-family.vercel.app',
+        'https://your-web.vercel.app',
         'http://localhost:3000',
         'http://127.0.0.1:3000',
         'http://localhost:5000'

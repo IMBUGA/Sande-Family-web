@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sande Family</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <i class="fas fa-heart loader-heart"></i>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">SANDE FAMILY</div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search family members, events...">
+                <div id="search-results"></div>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#family-members">Family</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signout">Sign out</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to Sande Family</h1>
+    </div>
+
+    <section id="about">
+        <h2>About Our Family</h2>
+        <p>The Sande Family: built on faith, strengthened by unity, sustained by love. A legacy of laughter, resilience, and togetherness.</p>
+    </section>
+
+    <section id="family-members">
+        <h2>Our Family Members</h2>
+        <div class="family-grid">
+            <div class="member">
+                <img src="/images/mum.jpg" alt="Mum">
+                <h3>Mum</h3>
+                <p>❤️ The heart of our family.</p>
+            </div>
+            <div class="member">
+                <img src="/images/chesang.jpg" alt="Chesang">
+                <h3>Chesang</h3>
+                <p>🎂🎉🥳 Feb.</p>
+            </div>
+            <div class="member">
+                <img src="/images/martin.jpeg" alt="Martin">
+                <h3>Martin</h3>
+                <p>🎂🎉🥳 Feb.</p>
+            </div>
+            <div class="member">
+                <img src="/images/sophy.jpeg" alt="Sophy">
+                <h3>Sophy</h3>
+                <p>🎂🎉🥳 17th Dec.</p>
+            </div>
+            <div class="member">
+                <img src="/images/rodgers.jpeg" alt="Rodgers">
+                <h3>Rodgers</h3>
+                <p>🎂🎉🥳 19th Sep.</p>
+            </div>
+            <div class="member">
+                <img src="/images/kevin.jpeg" alt="Kevin">
+                <h3>Kevin</h3>
+                <p>🎂🎉🥳 8th Jan.</p>
+            </div>
+            <div class="member">
+                <img src="/images/philip.jpeg" alt="Philip">
+                <h3>Philip</h3>
+                <p>🎂🎉🥳 12th Sep.</p>
+            </div>
+            <div class="member">
+                <img src="/images/chedy.jpeg" alt="Chedy">
+                <h3>Chedy</h3>
+                <p>🎂🎉🥳 24th May.</p>
+            </div>
+            <div class="member">
+                <img src="/images/daniel.jpeg" alt="Daniel">
+                <h3>Daniel</h3>
+                <p>🎂🎉🥳 15th Dec.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="family-tree">
+        <h2>Family Tree</h2>
+        <div class="family-tree">
+            <div class="tree-level">
+                <h3>Grandparents</h3>
+                <div class="tree-member">Grandparents</div>
+            </div>
+            <div class="tree-connector"></div>
+            <div class="tree-level">
+                <h3>Parents</h3>
+                <div class="tree-member">Dad</div>
+                <div class="tree-member">Mum</div>
+            </div>
+            <div class="tree-connector"></div>
+            <div class="tree-level">
+                <h3>Children</h3>
+                <div class="tree-member">Chesang</div>
+                <div class="tree-member">Martin</div>
+                <div class="tree-member">Sophy</div>
+                <div class="tree-member">Rodgers</div>
+                <div class="tree-member">Kevin</div>
+                <div class="tree-member">Philip</div>
+                <div class="tree-member">Chedy</div>
+                <div class="tree-member">Daniel</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Family Gallery</h2>
+        <div id="gallery-stacks"></div>
+    </section>
+
+    <section id="timeline">
+        <h2>Family Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <p>1958+1962: Our story begins.</p>
+            </div>
+            <div class="timeline-item">
+                <p>2022: First family reunion.</p>
+            </div>
+            <div class="timeline-item">
+                <p>2022+: Virtual connection kept us strong.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Family Events</h2>
+        <div class="countdown-container">
+            <div class="countdown-item">
+                <div class="countdown-value" id="days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+        <ul>
+            <li>Nov 8, 2025: Daniel's Graduation</li>
+            <li>Dec 27, 2025: Annual Family Reunion</li>
+            <li>Dec 2026: Cultural Celebration</li>
+        </ul>
+    </section>
+
+    <section id="quotes">
+        <h2>Family Memories</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-slide active">
+                <p class="testimonial-text">"The Sande family reunion of 2022 was unforgettable. Even though we had to connect virtually, the love and laughter filled every screen."</p>
+                <p class="testimonial-author">- Daniel</p>
+            </div>
+            <div class="testimonial-slide">
+                <p class="testimonial-text">"I'll always cherish our beach trips. Building sandcastles with the kids and watching the sunset together are my favorite memories."</p>
+                <p class="testimonial-author">- Philip</p>
+            </div>
+            <div class="testimonial-slide">
+                <p class="testimonial-text">"Our family dinners are where the best stories are told. I love hearing about everyone's adventures and sharing our own."</p>
+                <p class="testimonial-author">- Sophy</p>
+            </div>
+            <div class="testimonial-nav">
+                <span class="testimonial-dot active" data-slide="0"></span>
+                <span class="testimonial-dot" data-slide="1"></span>
+                <span class="testimonial-dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="updates">
+        <h2>Family Updates</h2>
+        <div class="blog-grid">
+            <div class="blog-post">
+                <img class="blog-image" src="/images/graduation.jpeg" alt="Graduation Plans">
+                <div class="blog-content">
+                    <p class="blog-date">September 22, 2025</p>
+                    <h3 class="blog-title">Graduation Plans</h3>
+                    <p>We're excited to announce Reiny's & Daniel's upcoming graduation ceremony in November 7th & 8th Respectively. Save the date!</p>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img class="blog-image" src="/images/birthday.jpg" alt="Birthday celebrations">
+                <div class="blog-content">
+                    <p class="blog-date">April 22, 2025</p>
+                    <h3 class="blog-title">Birthday celebrations</h3>
+                    <p>After years of celebrating individual birthdays, we're going to combine monthly birthdays to be celebrated as a single one!</p>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img class="blog-image" src="/images/family.jpg" alt="Welcome to the Family">
+                <div class="blog-content">
+                    <p class="blog-date">Dec 23, 2018</p>
+                    <h3 class="blog-title">Welcome to the Family!</h3>
+                    <p>Children are a blessing!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="https://formspree.io/f/mdklqavy" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" id="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sande Family. All Rights Reserved.</p>
+        <p class="made-with-love">Made with <span class="heart-emoji">❤️</span> by DS Studio</p>
+    </footer>
+
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    <div id="notification-container"></div>
+
+    <div id="media-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="">
+            <video id="modal-video" controls></video>
+        </div>
+    </div>
+</body>
+</html>

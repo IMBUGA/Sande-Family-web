@@ -1,0 +1,27 @@
+project-root/
+├── public/
+│   ├── auth.html
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── images/
+│   │   ├── mum.jpg
+│   │   ├── chesang.jpg
+│   │   ├── martin.jpeg
+│   │   ├── sophy.jpg
+│   │   ├── rodgers.jpg
+│   │   ├── kevin.jpeg
+│   │   ├── philip.jpg
+│   │   ├── chedy.jpg
+│   │   ├── daniel.jpeg
+│   │   ├── graduation.jpeg
+│   │   ├── birthday.jpg
+│   │   ├── family.jpg
+│   │   └── (other images from galleryData)
+├── server.js
+├── package.json
+├── package-lock.json
+├── .env
+├── vercel.json
+└── backups/
+    └── (backup files created by server.js)

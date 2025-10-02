@@ -887,7 +887,7 @@
     footer {
       background: var(--card-bg);
       text-align: center;
-      padding: 1rem;
+      font-style: italic;   padding: 1rem;
       font-size: 0.9rem;
       margin-top: 2rem;
       border-top: 1px solid #ccc;
@@ -899,6 +899,7 @@
     .made-with-love {
       color: var(--text);
       font-size: 0.9rem;
+      font-style: italic;
     }
 
     .heart-emoji {
